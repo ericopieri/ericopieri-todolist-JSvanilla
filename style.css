@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+	background: orange;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	background: black;
+	margin-top: 50px;
+	font-size: 2.5em;
+}
+.toDo {
+	width: 750px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column nowrap;
+	margin-top: 50px;
+	gap: 15px;
+}
+.toDo .toDoItem {
+	background: #eace09;
+	border-radius: 5px;
+	background: darkyellow;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+	padding: 30px;
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+.toDo .toDoItem div {
+	background: #eace09;
+	font-size: 1.5em;
+	flex: 1;
+}
+.toDo .toDoItem button {
+	padding: 4px 15px;
+	background: black;
+	border: none;
+}
+.input {
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+	height: 80px;
+	width: 750px;
+	margin: 50px auto 0 auto;
+}
+.input #inputTarefa {
+	border-radius: 3px;
+	font-size: 2em;
+	padding: 0 50px;
+	display: inline-block;
+	border: none;
+	outline: none;
+	background: rgba(255, 255, 255, .5);
+	width: 100%;
+	height: 100%;
+}
